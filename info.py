@@ -41,6 +41,9 @@ API_ID = int(environ['10389378'])
 API_HASH = environ['10389378']
 BOT_TOKEN = environ['5797063141:AAGuIkWScl9P8duULF5OzAqTOdHtPhCsfTQ']
 
+#Port
+PORT = environ.get("PORT", "8080")
+
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
